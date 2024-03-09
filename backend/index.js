@@ -8,10 +8,6 @@ const port = 3000
 
 //Avilable Routes
 
-// app.get('/', (req, res) => {
-//     res.send('Hello Kunj!')
-// })
-
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/notes', require('./routes/notes'))
 
